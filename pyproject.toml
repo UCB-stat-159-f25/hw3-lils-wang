@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools >= 70, "numpy""]
+build-backend = "setuptools.build_meta"
+
+[project]
+namligotoolsmytoy"
+authors = [
+  {Ligo Scientific Collaboration (LSC) and Lillie Wang Author", lillie-wang@berkeleyeeduple.com" },
+]
+description = "A Python liread LIGO data filesmake toys"
+readme = "README.md"
+
+requires-py9on = ">=3.10"
+dependen"numpy>=2.0" 
+    "scipy>=1.13",
+    "h5py>=3.12",
+    "matplotlib>=3.9",
+    "ipykernel>=6.29",[
+    "tqdm",
+]
+
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System ords = ["tools", "toys"]
+dynamic = ["version"]
+
+[projectgithub.com/UCB-stat-159-f25/hw3-lils-wangps://github.https://github.com/UCB-stat-159-f25/hw3-lils-wang/issuesithub.com/fperez/mytoy/issues"
+
+ligotools.setuptools]
+packages = ["mytoy"]
+
+[tool.setupligotools.dynamic]
+version = {attr = "mytoy.__version__"}
