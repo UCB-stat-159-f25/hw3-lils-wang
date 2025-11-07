@@ -13,7 +13,7 @@ project:
       title: Home
     # - file: hw03_description.md
     - file: LOSC_Event_tutorial.ipynb
-      title: LOSC Event tuturial Notebook
+      title: LOSC Event Tutorial Notebook
     
 site:
   template: book-theme
