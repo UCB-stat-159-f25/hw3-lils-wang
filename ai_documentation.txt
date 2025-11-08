@@ -1,6 +1,33 @@
+I mainly used chatgpt to fix help me find any errors that I did not notice.
 
+prompt: "what could be causing this error for my Makefile? "Makefile:3: *** missing separator.  Stop.""
+response: "... Fix indentation manually in JupyterLab
+
+Open the Makefile in JupyterLab.
+(Double-click it in the file browser.)
+
+Turn on the command palette:
+Press Ctrl + Shift + C (or click the “command palette” icon on the left sidebar).
+
+Search for and disable “Insert Spaces for Tabs” if it’s on.
+
+Alternatively, look in the bottom-right corner of the editor — it might say Spaces: 4.
+
+Click that → change it to Tab Size: 4 and disable “Spaces.”
+
+Go through your file and replace all spaces at the start of command lines with a real tab.
+
+The tab must appear before conda, myst, and rm.
+
+You can press Backspace to remove spaces, then hit the Tab key once.
+
+Save (Ctrl + S)...."
 
 
 
 prompt: "I have ".ipynb_checkpoints/" currently in my .gitignore but those directories still exist and push to my repo, how can i change it so it does not push any to my rep?"
 response: "... **/.ipynb_checkpoints/... "
+
+
+prompt: "How can I remove the existing .ipynb_checkpoints/ from my repo that were already pushed?"
+response: "... git rm -r --cached .ipynb_checkpoints... "
