@@ -3,4 +3,4 @@ _build
 audio/*
 figures/*
 
-*/.ipynb_checkpoints/*
+**.ipynb_checkpoints/

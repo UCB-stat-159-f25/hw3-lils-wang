@@ -1,0 +1,6 @@
+
+
+
+
+prompt: "I have ".ipynb_checkpoints/" currently in my .gitignore but those directories still exist and push to my repo, how can i change it so it does not push any to my rep?"
+response: "... **/.ipynb_checkpoints/... "
